@@ -1,0 +1,97 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "cà phê hạt",
+      "img": "arabica.png",
+      "price": "100.000đ",
+      "description": "cà phê bột",
+      "category": "coffee coffeevvvvv",
+      "number": 2
+    },
+    {
+      "id": 2,
+      "name": "cà phê bột",
+      "img": "hopCaPhe.jpg",
+      "price": "150.000đ",
+      "description": "cà phê bột",
+      "category": "coffeewww",
+      "number": 5
+    },
+    {
+      "id": "3",
+      "name": "lá cà phê",
+      "img": "istockphoto612x612.jpg",
+      "price": "10.000đ/kg",
+      "description": "lá cà phê tươi",
+      "category": "cây cà phê",
+      "number": "10"
+    },
+    {
+      "id": "4",
+      "name": "cà phê rang xay",
+      "img": "coffee-bean.jpg",
+      "price": "100.000đ",
+      "description": "cà phê bột",
+      "category": "coffee",
+      "number": "10"
+    },
+    {
+      "id": "5",
+      "name": "cà phê nhân",
+      "img": "robusta2.png",
+      "price": "150.000đ",
+      "description": "cà phê bột",
+      "category": "coffee",
+      "number": "20"
+    },
+    {
+      "id": "5",
+      "name": "cà phê tươi",
+      "img": "bean.jpg",
+      "price": "150.000đ",
+      "description": "cà phê bột",
+      "category": "coffee",
+      "number": "20"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "John",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "username": "Henry",
+      "password": "1234"
+    },
+    {
+      "id": 3,
+      "username": "Mary",
+      "password": "12345"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "John",
+      "number": "10"
+    },
+    {
+      "id": 2,
+      "title": "Green234",
+      "number": 14
+    },
+    {
+      "id": 3,
+      "title": "Henry",
+      "number": "103"
+    }
+  ],
+  "lists": [
+    {
+      "todo": ""
+    }
+  ]
+}
