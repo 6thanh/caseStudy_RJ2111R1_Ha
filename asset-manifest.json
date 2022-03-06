@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/demo-deploy-github-pages/static/css/main.8203662e.css",
-    "main.js": "/demo-deploy-github-pages/static/js/main.462bac93.js",
-    "static/js/787.e81ff1c2.chunk.js": "/demo-deploy-github-pages/static/js/787.e81ff1c2.chunk.js",
-    "static/media/robusta2.png": "/demo-deploy-github-pages/static/media/robusta2.26d9525743311e9c12ff.png",
-    "static/media/coffee-leaf-icon.jpg": "/demo-deploy-github-pages/static/media/coffee-leaf-icon.0ddd35d2d03d7438bca4.jpg",
-    "static/media/arabica.png": "/demo-deploy-github-pages/static/media/arabica.b51c47f5b70cf12c7bf2.png",
-    "static/media/coffee-bean-icon-free-vector.jpg": "/demo-deploy-github-pages/static/media/coffee-bean-icon-free-vector.19187547f45e9207ac9b.jpg",
-    "static/media/istockphoto612x612.jpg": "/demo-deploy-github-pages/static/media/istockphoto612x612.5a59d53f35d3ef7027b4.jpg",
-    "static/media/bean.jpg": "/demo-deploy-github-pages/static/media/bean.0a143cacc5d175dfc500.jpg",
-    "static/media/coffee-bean.jpg": "/demo-deploy-github-pages/static/media/coffee-bean.881d1b83402b8057e003.jpg",
-    "index.html": "/demo-deploy-github-pages/index.html",
-    "main.8203662e.css.map": "/demo-deploy-github-pages/static/css/main.8203662e.css.map",
-    "main.462bac93.js.map": "/demo-deploy-github-pages/static/js/main.462bac93.js.map",
-    "787.e81ff1c2.chunk.js.map": "/demo-deploy-github-pages/static/js/787.e81ff1c2.chunk.js.map"
+    "main.css": "/6thanh/caseStudy_RJ2111R1_Ha/static/css/main.8203662e.css",
+    "main.js": "/6thanh/caseStudy_RJ2111R1_Ha/static/js/main.673b8ee4.js",
+    "static/js/787.e81ff1c2.chunk.js": "/6thanh/caseStudy_RJ2111R1_Ha/static/js/787.e81ff1c2.chunk.js",
+    "static/media/robusta2.png": "/6thanh/caseStudy_RJ2111R1_Ha/static/media/robusta2.26d9525743311e9c12ff.png",
+    "static/media/coffee-leaf-icon.jpg": "/6thanh/caseStudy_RJ2111R1_Ha/static/media/coffee-leaf-icon.0ddd35d2d03d7438bca4.jpg",
+    "static/media/arabica.png": "/6thanh/caseStudy_RJ2111R1_Ha/static/media/arabica.b51c47f5b70cf12c7bf2.png",
+    "static/media/coffee-bean-icon-free-vector.jpg": "/6thanh/caseStudy_RJ2111R1_Ha/static/media/coffee-bean-icon-free-vector.19187547f45e9207ac9b.jpg",
+    "static/media/istockphoto612x612.jpg": "/6thanh/caseStudy_RJ2111R1_Ha/static/media/istockphoto612x612.5a59d53f35d3ef7027b4.jpg",
+    "static/media/bean.jpg": "/6thanh/caseStudy_RJ2111R1_Ha/static/media/bean.0a143cacc5d175dfc500.jpg",
+    "static/media/coffee-bean.jpg": "/6thanh/caseStudy_RJ2111R1_Ha/static/media/coffee-bean.881d1b83402b8057e003.jpg",
+    "index.html": "/6thanh/caseStudy_RJ2111R1_Ha/index.html",
+    "main.8203662e.css.map": "/6thanh/caseStudy_RJ2111R1_Ha/static/css/main.8203662e.css.map",
+    "main.673b8ee4.js.map": "/6thanh/caseStudy_RJ2111R1_Ha/static/js/main.673b8ee4.js.map",
+    "787.e81ff1c2.chunk.js.map": "/6thanh/caseStudy_RJ2111R1_Ha/static/js/787.e81ff1c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8203662e.css",
-    "static/js/main.462bac93.js"
+    "static/js/main.673b8ee4.js"
   ]
 }
