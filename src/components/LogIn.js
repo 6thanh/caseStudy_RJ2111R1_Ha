@@ -14,9 +14,6 @@ import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
       
 import { Formik, Form } from "formik";
-// import { Formik, Form, ErrorMessage } from "formik";
-// import { Formik, Form } from "formik";
-// import * as Yup from 'yup';
 import { useNavigate } from "react-router-dom";
 import {useState} from "react";
 
@@ -64,7 +61,7 @@ export default function LogIn() {
   }
   const navigate = useNavigate();
   const checkAccount = () => {
-      if (form.email == adminAccount.email && form.password == adminAccount.password) {
+      if (form.email === adminAccount.email && form.password === adminAccount.password) {
           navigate('/products');
       } else {
           alert('Your account does not exist!');
