@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/caseStudy_RJ2111R1_Ha/static/css/main.8203662e.css",
-    "main.js": "/caseStudy_RJ2111R1_Ha/static/js/main.c216614b.js",
+    "main.js": "/caseStudy_RJ2111R1_Ha/static/js/main.0b59cd59.js",
     "static/js/787.e81ff1c2.chunk.js": "/caseStudy_RJ2111R1_Ha/static/js/787.e81ff1c2.chunk.js",
     "static/media/robusta2.png": "/caseStudy_RJ2111R1_Ha/static/media/robusta2.26d9525743311e9c12ff.png",
     "static/media/coffee-leaf-icon.jpg": "/caseStudy_RJ2111R1_Ha/static/media/coffee-leaf-icon.0ddd35d2d03d7438bca4.jpg",
@@ -12,11 +12,11 @@
     "static/media/coffee-bean.jpg": "/caseStudy_RJ2111R1_Ha/static/media/coffee-bean.881d1b83402b8057e003.jpg",
     "index.html": "/caseStudy_RJ2111R1_Ha/index.html",
     "main.8203662e.css.map": "/caseStudy_RJ2111R1_Ha/static/css/main.8203662e.css.map",
-    "main.c216614b.js.map": "/caseStudy_RJ2111R1_Ha/static/js/main.c216614b.js.map",
+    "main.0b59cd59.js.map": "/caseStudy_RJ2111R1_Ha/static/js/main.0b59cd59.js.map",
     "787.e81ff1c2.chunk.js.map": "/caseStudy_RJ2111R1_Ha/static/js/787.e81ff1c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8203662e.css",
-    "static/js/main.c216614b.js"
+    "static/js/main.0b59cd59.js"
   ]
 }
