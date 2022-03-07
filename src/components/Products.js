@@ -25,7 +25,7 @@ class Products extends Component {
                 </div>
                 <div className="mt-2">
                     <a href="/products/add" style={{color: "blue"}} className="btn btn-info m-3 animate__animated animate__fadeInBottomLeft" rules="button">Add Product</a>
-                    <a href="/" className="btn btn-success m-3 animate__animated animate__fadeInBottomRight" rules="button">Log out</a>
+                    <a href="/caseStudy_RJ2111R1_Ha" className="btn btn-success m-3 animate__animated animate__fadeInBottomRight" rules="button">Log out</a>
                 </div>
                 <table className="table table-bordered mt-2">
                     <thead className="table-bordered">
