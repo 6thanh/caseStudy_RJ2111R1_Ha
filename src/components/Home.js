@@ -18,16 +18,17 @@ export function Home(){
     async function getWeather() {
       const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${inputCity.value}&appid=${APIKey}`);
       const weather= response.data;
-      let name = weather.name;
-      let { temp, humidity } = weather.main;
-      let { icon, description } = weather.weather[0];
-      let { speed } = weather.wind;
+      const name = weather.name;
+      const { temp, humidity } = weather.main;
+      const { icon, description } = weather.weather[0];
+      const { speed } = weather.wind;
+      const tempInt = parseInt((temp*100-27315)/100);
       weatherInfo.innerHTML = `
         <div>
           <h3>${name} weather</h3>
           <img src="https://openweathermap.org/img/wn/${icon}.png" />
           <p>Description: ${description}</p>
-          <p>Temp: ${temp-273.15} °C</p>
+          <p>Temp: ${tempInt} °C</p>
           <p>Humidity: ${humidity}%</p>
           <p>Wind speed: ${speed} km/h</p>
         </div>`
@@ -61,7 +62,8 @@ export function Home(){
         <h1 className="animate__animated animate__bounceInLeft mt-5" style={{color: "blue"}}>Welcome to the product management page!</h1>
             <a href="/login" className="btn btn-primary mt-5 animate__animated animate__bounceInRight animate__repeat-2" >Login</a>
             <br />
-            <a rules="button" href="https://6thanh.github.io/bai_cuoi_khoa_HTML_CSS_Ha/" className="btn btn-warning mt-5 animate__animated animate__bounceInLeft animate__delay-2" >Demo deploy github</a>
+            <a rules="button" href="https://6thanh.github.io/bai_cuoi_khoa_HTML_CSS_Ha/" className="btn btn-warning m-5 animate__animated animate__bounceInLeft animate__delay-2" >Demo deploy github</a>
+            <a rules="button" href="https://tranquil-eyrie-97832.herokuapp.com/" className="btn btn-warning m-5 animate__animated animate__bounceInRight animate__delay-2" >Demo deploy heroku</a>
         </div>
         <CssBaseline />
         </Grid>

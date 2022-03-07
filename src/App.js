@@ -5,8 +5,8 @@ import LogIn from './components/LogIn';
 import Products from './components/Products';
 import { Edit } from './components/Edit';
 import { Delete } from './components/Delete';
-import { Add } from './components/Add';
 import { Home } from './components/Home';
+import { Add } from './components/Add';
 
 function App() {
   return (

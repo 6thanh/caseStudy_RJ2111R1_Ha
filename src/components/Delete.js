@@ -23,7 +23,7 @@ export function Delete() {
         if (productId) {
             axios.delete(`http://localhost:3000/products/${productId}`, product)
             .then((res)=>{                
-                alert('Delete!!!')
+                alert('Delete success!!!')
                 navigate('/products')            
             })
             .catch((err)=>{throw err})

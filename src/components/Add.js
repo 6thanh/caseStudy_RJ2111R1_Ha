@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useState } from "react"
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 export function Add() {
@@ -13,12 +13,16 @@ export function Add() {
 
     const navigate= useNavigate();
     const handleSubmit = () => {
-        axios.post('http://localhost:3000/products/', product)
+        if(product.id === null || product.id === undefined){
+            alert("Please input a product!");
+        } else {
+            axios.post('http://localhost:3000/products', product)
             .then((res)=>{
                 alert("Add success!!!");
                 navigate('/products')
             })
             .catch((err)=>{throw err})
+        }
     }
 
     return(
