@@ -60,6 +60,8 @@ export function Home(){
         <div className="card-img-overlay mt-30">
         <h1 className="animate__animated animate__bounceInLeft mt-5" style={{color: "blue"}}>Welcome to the product management page!</h1>
             <a href="/login" className="btn btn-primary mt-5 animate__animated animate__bounceInRight animate__repeat-2" >Login</a>
+            <br />
+            <a rules="button" href="https://6thanh.github.io/bai_cuoi_khoa_HTML_CSS_Ha/" className="btn btn-warning mt-5 animate__animated animate__bounceInLeft animate__delay-2" >Demo deploy github</a>
         </div>
         <CssBaseline />
         </Grid>
