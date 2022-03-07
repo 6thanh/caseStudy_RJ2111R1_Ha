@@ -26,7 +26,7 @@ export function Add() {
     }
 
     return(
-        <div className="container w-50 card mt-3">
+        <div className="container w-50 card mt-3 shadow">
             <h2 className="text-success">Add Product</h2>
             <div>
                 <label htmlFor="productId" className="w-25 mt-2 text-start">ID</label>

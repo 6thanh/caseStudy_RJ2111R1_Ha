@@ -19,7 +19,8 @@ class Products extends Component {
     render(){
         const {products} = this.state;
         return(
-            <div className="container w-auto mt-3">
+            <div className="container w-auto mt-3 shadow">
+                <h5 className="mt-3 animate__animated animate__fadeInBottomLeft text-start">Hello: admin@gmail.com!</h5>
                 <div className="border bg-info mt-3 animate__animated animate__fadeInUpBig">
                     <h1 className="text-light text-center m-2 ">Product Management</h1>
                 </div>

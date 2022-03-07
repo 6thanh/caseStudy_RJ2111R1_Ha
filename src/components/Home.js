@@ -62,8 +62,8 @@ export function Home(){
         <h1 className="animate__animated animate__bounceInLeft mt-5" style={{color: "blue"}}>Welcome to the product management page!</h1>
             <a href="/login" className="btn btn-primary mt-5 animate__animated animate__bounceInRight animate__repeat-2" >Login</a>
             <br />
-            <a rules="button" href="https://6thanh.github.io/bai_cuoi_khoa_HTML_CSS_Ha/" className="btn btn-warning m-5 animate__animated animate__bounceInLeft animate__delay-2" >Demo deploy github</a>
-            <a rules="button" href="https://tranquil-eyrie-97832.herokuapp.com/" className="btn btn-warning m-5 animate__animated animate__bounceInRight animate__delay-2" >Demo deploy heroku</a>
+            <a rules="button" href="https://6thanh.github.io/bai_cuoi_khoa_HTML_CSS_Ha/" className="btn btn-warning m-5 animate__animated animate__bounceInLeft animate__delay-3s" >Demo deploy github</a>
+            <a rules="button" href="https://tranquil-eyrie-97832.herokuapp.com/" className="btn btn-warning m-5 animate__animated animate__bounceInRight animate__delay-4s" >Demo deploy heroku</a>
         </div>
         <CssBaseline />
         </Grid>
