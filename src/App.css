@@ -38,7 +38,7 @@
 }
 
 .mt-30 {
-  margin-top: 30vh;
+  margin-top: 20vh;
 }
 
 tr:nth-child(even) {
@@ -55,5 +55,5 @@ tr:nth-child(even) {
   border: 1px solid grey;
   height: 50vh;
   background-color: wheat;
-  opacity: 80%;
+  opacity: 60%;
 }

@@ -1,15 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "cà phê hạt",
-      "img": "arabica.png",
-      "price": "100.000đ",
-      "description": "cà phê bột",
-      "category": "coffee coffeevvvvv",
-      "number": 2
-    },
-    {
       "id": 2,
       "name": "cà phê bột",
       "img": "hopCaPhe.jpg",
@@ -53,6 +44,15 @@
       "description": "cà phê bột",
       "category": "coffee",
       "number": "20"
+    },
+    {
+      "id": "112",
+      "name": "cà phê bột",
+      "img": "arabica.png",
+      "price": "100.000đ",
+      "description": "cà phê bột",
+      "category": "coffee",
+      "number": "12"
     }
   ],
   "users": [

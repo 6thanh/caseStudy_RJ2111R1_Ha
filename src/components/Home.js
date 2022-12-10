@@ -37,35 +37,35 @@ export function Home(){
   }
     return(
         <ThemeProvider theme={theme}>
-      <Grid container component="main" 
-      sx={{
-        backgroundImage: 'url(https://source.unsplash.com/random/)',
-        backgroundRepeat: 'no-repeat',
-        backgroundColor: (t) =>
-          t.palette.mode === 'light' ? t.palette.grey[50] : t.palette.grey[900],
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        height: '100vh'
-      }}>
-        <div className="info-weather">
-          <div className="form-check mt-3">
-              <div className="card w-75">
-                  <div className="input-group">
-                      <input type="text" name="address" id="address" className="form-control" placeholder="Weather of city" />
-                      <input type="submit" value="Search" className="btn btn-success ms-3" onClick={handleSubmit} />
-                  </div>
+          <Grid container component="main" 
+            sx={{
+              backgroundImage: 'url(https://source.unsplash.com/random/)',
+              backgroundRepeat: 'no-repeat',
+              backgroundColor: (t) =>
+                t.palette.mode === 'light' ? t.palette.grey[50] : t.palette.grey[900],
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              height: '100vh'
+            }}>
+              <div className="info-weather">
+                <div className="form-check mt-3">
+                    <div className="card w-75">
+                        <div className="input-group">
+                            <input type="text" name="address" id="address" className="form-control" placeholder="Weather of city" />
+                            <input type="submit" value="Search" className="btn btn-success ms-3" onClick={handleSubmit} />
+                        </div>
+                    </div>
+                    <div id="weatherInfo" className="text-start text-info mt-4"></div>
+                </div>
               </div>
-              <div id="weatherInfo" className="text-start text-info mt-4"></div>
-          </div>
-        </div>
-        <div className="card-img-overlay mt-30">
-        <h1 className="animate__animated animate__bounceInLeft mt-5" style={{color: "blue"}}>Welcome to the product management page!</h1>
-            <a href="/login" className="btn btn-primary mt-5 animate__animated animate__bounceInRight animate__repeat-2" >Login</a>
-            <br />
-            <a rules="button" href="https://6thanh.github.io/bai_cuoi_khoa_HTML_CSS_Ha/" className="btn btn-warning m-5 animate__animated animate__bounceInLeft animate__delay-3s" >Demo deploy github</a>
-            <a rules="button" href="https://tranquil-eyrie-97832.herokuapp.com/" className="btn btn-warning m-5 animate__animated animate__bounceInRight animate__delay-4s" >Demo deploy heroku</a>
-        </div>
-        <CssBaseline />
+              <div className="card-img-overlay mt-30">
+              <h1 className="animate__animated animate__bounceInLeft mt-5" style={{color: "blue"}}>Welcome to the product management page!</h1>
+                  <a href="/login" className="btn btn-primary mt-5 animate__animated animate__bounceInRight animate__repeat-2" >Login</a>
+                  <br />
+                  <a rules="button" href="https://6thanh.github.io/bai_cuoi_khoa_HTML_CSS_Ha/" className="btn btn-warning m-5 animate__animated animate__bounceInLeft animate__delay-3s" >Demo deploy github</a>
+                  <a rules="button" href="https://tranquil-eyrie-97832.herokuapp.com/" className="btn btn-warning m-5 animate__animated animate__bounceInRight animate__delay-4s" >Demo deploy heroku</a>
+              </div>
+            <CssBaseline />
         </Grid>
     </ThemeProvider>
     )
